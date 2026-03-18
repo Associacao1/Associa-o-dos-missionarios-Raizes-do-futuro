@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Discussões - Comunidade Raízes do Futuro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="discussoes.html"><strong>Discussões</strong></a></li>
+        </ul>
+    </nav>
+</header>
+<main style="padding: 2em;">
+    <h1>👋 Bem-vindos à Comunidade Raízes do Futuro!</h1>
+    <p>Este espaço é dedicado a todos que apoiam, participam ou se interessam pelas ações da <strong>Associação Raízes do Futuro</strong>.</p>
+    <p>Aqui, esperamos que você:</p>
+    <ul>
+        <li>🌱 Compartilhe ideias e sugestões de projetos</li>
+        <li>🙋‍♀️ Faça perguntas sobre nossas atividades, voluntariado e impacto</li>
+        <li>📸 Mostre experiências vividas em nossos programas</li>
+        <li>🤝 Conecte-se com outras pessoas que acreditam na transformação social</li>
+    </ul>
+    <h2>Comece comentando abaixo:</h2>
+    <ul>
+        <li>Seu nome e de onde você é</li>
+        <li>Como conheceu a associação</li>
+        <li>Por que decidiu se envolver</li>
+    </ul>
+    <p>Juntos, plantamos esperança e colhemos transformação 💚</p>
+</main>
+<footer>
+    <p>&copy; 2025 Associação Raízes do Futuro</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Missionary Roots of the Future Association</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #2f4f2f, #4caf50);
+      background-attachment: fixed;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 100px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    section {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.2);
+      margin: 10px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: white;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "✅ ";
+    }
+    .nao::before {
+      content: "❌ ";
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    footer {
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 20px;
+    }
+    a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .language-toggle {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      background: #ffffff33;
+      color: white;
+      padding: 5px 10px;
+      border: 1px solid white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="language-toggle"><a href="site_pt.html" style="color:white;">Português</a></div>
+  <header>
+    <img src="logo_missionarios_resiliencia.png" alt="Association Logo" />
+    <h1>Missionary Roots of the Future Association</h1>
+    <p>Transforming lives through education, sustainable agriculture, and faith</p>
+    <p><strong>Christian Community Organization</strong></p>
+  </header>
+
+  <section>
+    <h2>Who We Are</h2>
+    <p>Our association was born from deep listening and direct involvement with communities rich in knowledge, strength, and their own solutions. While others impose external models, we walk alongside — not ahead. Dignity, transformation, and autonomy are built by their own hands.</p>
+  </section>
+
+  <section>
+    <h2>Our Christian Identity</h2>
+    <ul>
+      <li>Liberating education</li>
+      <li>Sustainable agriculture</li>
+      <li>Transformative faith</li>
+    </ul>
+    <p>Today we plant the seeds of a fairer, more prosperous, and hope-filled tomorrow.</p>
+  </section>
+
+  <section>
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="foto1_distribuicao_escolar.jpg" alt="School supply distribution" />
+      <img src="foto2_alimentacao.jpg" alt="School meal" />
+      <img src="foto3_evento_comunitario.jpg" alt="Community event" />
+    </div>
+  </section>
+
+  <section>
+    <h2>What Makes Us Different?</h2>
+    <ul>
+      <li>We listen, support, and walk together</li>
+      <li>We cultivate alliances, not dependency</li>
+      <li>Real presence and long-term commitment</li>
+      <li class="nao">We don’t promise to save anyone</li>
+      <li class="nao">We don’t reduce people to “beneficiaries”</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The Problem We Face</h2>
+    <ul>
+      <li>Institutional abandonment</li>
+      <li>Normalized poverty</li>
+      <li>Solutions that do not listen</li>
+    </ul>
+    <p>Communities are tired of being treated as passive recipients. They want to be the protagonists of their own stories.</p>
+  </section>
+
+  <section>
+    <h2>Our Solution</h2>
+    <ul>
+      <li>Strengthening relationships</li>
+      <li>Sharing knowledge</li>
+      <li>Creating spaces for gathering, struggle, and hope</li>
+    </ul>
+    <p>We act based on lived experience, active listening, and a vision of justice and dignity.</p>
+  </section>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>To transform realities through Christian faith, education, and sustainable agriculture, promoting the integral development of communities.</p>
+  </section>
+
+  <section>
+    <h2>Our Vision</h2>
+    <p>To build a future where children, youth, and families live with dignity, hope, and opportunities — with faith, knowledge, and sustainability.</p>
+  </section>
+
+  <section>
+    <h2>Our Values</h2>
+    <ul>
+      <li>✝ Faith in God</li>
+      <li>❤️ Love for others</li>
+      <li>📚 Transformative education</li>
+      <li>🌱 Sustainability</li>
+      <li>⚖ Justice and Hope</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Our Projects</h2>
+    <ul>
+      <li>📚 <strong>Community Education</strong><br />
+        We offer tutoring, literacy programs for youth and adults, and educational workshops. Our goal is to expand learning opportunities and social inclusion.
+      </li>
+      <li>🌿 <strong>Sustainable Agriculture</strong><br />
+        We implement community gardens, agroecology training, and sustainable farming practices. We promote food security and income generation for families.
+      </li>
+      <li>🙏 <strong>Faith and Pastoral Action</strong><br />
+        We hold spiritual gatherings, pastoral support, and leadership formation based on Christian faith. We believe spirituality strengthens social transformation.
+      </li>
+      <li>🥗 <strong>Nutrition Program</strong><br />
+        We carry out food education, distribute basic food baskets, and provide healthy meals to children and vulnerable families.
+      </li>
+      <li>🦁 <strong>Educational Safari</strong><br />
+        We organize guided visits to nature reserves, promoting environmental education, biodiversity awareness, and respect for nature among children and youth.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Be a Volunteer</h2>
+    <p>Do you want to make a difference? Join our team of volunteers and contribute with your time, skills, and heart.</p>
+    <ul>
+      <li>💪 Help with community education</li>
+      <li>🌱 Support sustainable agriculture projects</li>
+      <li>🍲 Assist with nutrition programs</li>
+      <li>🕊 Share your faith and serve in pastoral care</li>
+      <li>🚌 Accompany educational field trips</li>
+    </ul>
+    <p><strong>How to Join:</strong> Send us an email at <a href="mailto:associacaodosmissionarioscg@gmail.com">associacaodosmissionarioscg@gmail.com</a> expressing your interest. Let’s sow transformation together!</p>
+  </section>
+
+  <section>
+    <h2>Our Blog</h2>
+    <p>Stay updated on our latest activities, reflections, and community news.</p>
+    <ul>
+      <li><strong>Hope in Action:</strong> Read about how a small school garden changed a community’s future.</li>
+      <li><strong>Faith that Transforms:</strong> Testimonies of families who found strength in spirituality and solidarity.</li>
+      <li><strong>Learning Together:</strong> Highlights from our youth workshops and educational events.</li>
+    </ul>
+    <p>Visit our full blog soon — we’re preparing inspiring stories to share with you!</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p><strong>Missionary Roots of the Future Association</strong></p>
+    <p>📍 Cheringoma, Inhaminga Village, Dake Neighborhood</p>
+    <p>📞 +258 844492160 / 834160871</p>
+    <p>✉ associacaodosmissionarioscg@gmail.com</p>
+    <p>🌐 <a href="https://associacao1.github.io/Associa-o-Raizes-do-futuro-/" target="_blank">Our site</a></p>
+    <p>Together, we are seeds of a better future.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Missionary Roots of the Future Association</p>
+  </footer>
+</body>
+</html>

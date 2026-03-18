@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Associação Raízes do Futuro</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #1a3c40;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header img {
+            height: 60px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #1a3c40;
+            font-weight: bold;
+        }
+        .banner {
+            background-color: #e8f5e9;
+            height: 400px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .banner img {
+            max-width: 250px;
+            margin-bottom: 20px;
+        }
+        .section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .cta {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        footer {
+            background-color: #1a3c40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .button {
+            background-color: #2e7d32;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .card {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 250px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 768px) {
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+            header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo_pequeno.png" alt="Logo da Associação Raízes do Futuro">
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#areas">Áreas</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="banner" id="inicio">
+    <img src="logo_banner.png" alt="Banner da Associação Raízes do Futuro">
+    <h1>Plantando Esperança, Colhendo Futuro</h1>
+    <a href="#quem-somos" class="button">Saiba Mais</a>
+</section>
+
+<section class="section" id="quem-somos">
+    <h2>Quem Somos</h2>
+    <p>Somos a Associação Raízes do Futuro, uma organização comunitária cristã comprometida em transformar vidas através da educação, da agricultura sustentável e da fé.</p>
+    <p>Acreditamos que, fortalecendo nossas comunidades com conhecimento, solidariedade e espiritualidade, plantamos hoje as sementes de um amanhã mais justo, próspero e cheio de esperança. Trabalhamos lado a lado com crianças, jovens e famílias para transformar realidades e criar oportunidades duradouras, sempre guiados pelos valores cristãos que nos unem.</p>
+</section>
+
+<section class="section" id="projetos">
+    <h2>Nossos Projetos</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Educação Comunitária</h3>
+            <p>Formação de crianças e jovens em comunidades rurais.</p>
+        </div>
+        <div class="card">
+            <h3>Agricultura Sustentável</h3>
+            <p>Capacitação em Farming God's Way para famílias locais.</p>
+        </div>
+        <div class="card">
+            <h3>Espiritualidade Cristã</h3>
+            <p>Apoio pastoral e formação de pequenos missionários comunitários.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="areas">
+    <h2>Áreas de Atuação</h2>
+    <ul>
+        <li>Educação e Cidadania</li>
+        <li>Agricultura Sustentável</li>
+        <li>Saúde Comunitária</li>
+        <li>Geração de Renda</li>
+        <li>Igualdade de Gênero</li>
+        <li>Espiritualidade Cristã</li>
+    </ul>
+</section>
+
+<section class="cta">
+    <h2>Cada pessoa é uma semente de mudança. Venha crescer com a gente!</h2>
+    <a href="#contato" class="button">Seja Voluntário</a>
+</section>
+
+<section class="section" id="contato">
+    <h2>Contato</h2>
+    <p>📍 Cheringoma – Inhaminga, Sofala – Moçambique</p>
+    <p>📧 Email: <a href="mailto:associacaodosmissionarioscg@gmail.com">associacaodosmissionarioscg@gmail.com</a></p>
+    <p>📞 WhatsApp: <a href="https://wa.me/258844492160" target="_blank">+258 84 449 2160</a></p>
+</section>
+
+<footer>
+    © 2025 Associação Raízes do Futuro. Juntos por um amanhã melhor, servindo com fé e esperança.
+</footer>
+
+</body>
+</html>

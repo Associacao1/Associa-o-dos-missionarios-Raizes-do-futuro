@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeria de Fotos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 1rem 2rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Associação dos Missionários</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="depoimentos.html">Depoimentos</a>
+      <a href="blog.html">Blog</a>
+      <a href="voluntario.html">Voluntariado</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <section class="galeria">
+    <img src="images/2f77b87d-3387-4b65-a109-5c476e4a669c.jpeg" alt="Foto 1">
+    <img src="images/c4c709e7-72ad-4028-b6a3-8f47db2d8532.jpeg" alt="Foto 2">
+    <img src="images/c1cc7afa-496c-428d-842b-88af61a4de4e.jpeg" alt="Foto 3">
+    <img src="images/4c8c1ff7-fe3d-48e2-b040-165fe87f570e.jpeg" alt="Foto 4">
+  </section>
+
+  <footer>
+    © 2025 Associação dos Missionários. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>

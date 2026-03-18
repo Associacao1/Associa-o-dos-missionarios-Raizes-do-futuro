@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Associação Raízes do Futuro — Bilingue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f6f9f6;
+    --card:#ffffff;
+    --accent:#2f8f4a;
+    --muted:#5b6b60;
+    --glass: rgba(255,255,255,0.6);
+    --rounded:14px;
+    --maxw:1100px;
+    --transition-speed:0.4s;
+  }
+  *{box-sizing:border-box;transition:var(--transition-speed);}
+  body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,var(--bg),#eef6f0);margin:0;color:#123;line-height:1.4;}
+  .container{max-width:var(--maxw);margin:24px auto;padding:0 16px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{width:64px;height:64px;border-radius:12px;object-fit:cover;background:linear-gradient(135deg,#2e6b3a,#67b26f);display:inline-flex;align-items:center;justify-content:center;color:white;font-weight:800}
+  nav{display:flex;gap:12px;align-items:center;flex-wrap:wrap;}
+  nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:10px;font-weight:600}
+  nav a.primary{background:var(--accent);color:white}
+  .lang-toggle{display:flex;gap:6px;cursor:pointer}
+  .lang-toggle img{width:28px;height:18px;border-radius:2px;transition: transform 0.3s;}
+  .lang-toggle img:hover{transform:scale(1.2);}
+  .hero{background:linear-gradient(90deg,rgba(47,143,74,0.12),rgba(103,178,111,0.06));padding:28px;border-radius:18px;margin-top:16px;display:grid;grid-template-columns:1fr;gap:16px;transition:opacity var(--transition-speed);}
+  .hidden{display:none;opacity:0;}
+  .fade-in{display:block;opacity:1;transition:opacity var(--transition-speed);}
+  .hero-inner{display:flex;gap:18px;align-items:center}
+  .hero h1{margin:0;font-size:28px;color:#0b3d1b}
+  .hero p.lead{margin:6px 0 0;color:var(--muted)}
+  .cta{display:flex;gap:10px;margin-top:12px}
+  .btn{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+  .btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(47,143,74,0.2)}
+  main{display:grid;grid-template-columns:2fr 1fr;gap:18px;margin-top:18px;transition:opacity var(--transition-speed);}
+  .card{background:var(--card);border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(15,25,15,0.06)}
+  h2{margin-top:0;color:#123}
+  ul{padding-left:18px}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+  .gallery img{width:100%;height:140px;object-fit:cover;border-radius:10px}
+  .contact-form label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+  .contact-form input,.contact-form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e3ece3;background:transparent}
+  .contact-form textarea{min-height:120px;resize:vertical}
+  footer{margin-top:18px;padding:18px;text-align:center;color:var(--muted);transition:opacity var(--transition-speed);}
+  @media(min-width:900px){.hero{grid-template-columns:1fr 360px}.hero-inner{flex-direction:column;align-items:flex-start}}
+  @media(max-width:899px){main{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="brand">
+      <div class="logo" aria-hidden="true">RF</div>
+      <div>
+        <div style="font-weight:800">Associação Raízes do Futuro</div>
+        <div class="meta">Educação · Agricultura sustentável · Fé</div>
+      </div>
+    </div>
+    <nav aria-label="Menu principal">
+      <a href="#projetos">Projetos</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato" class="primary">Contacte-nos</a>
+      <div class="lang-toggle">
+        <img src="pt-flag.png" alt="PT" onclick="switchLang('pt')">
+        <img src="en-flag.png" alt="EN" onclick="switchLang('en')">
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero card">
+    <div id="hero-pt" class="fade-in">
+      <h1>Transformando vidas por meio da fé, conhecimento e terra fértil</h1>
+      <p class="lead">A Associação dos Missionários Raízes do Futuro trabalha lado a lado com comunidades para promover autonomia, segurança alimentar e esperança — com respeito, dignidade e práticas sustentáveis.</p>
+      <div class="cta">
+        <a class="btn" href="#contato">Fale conosco</a>
+        <a class="btn ghost" href="#projetos">Ver projetos</a>
+      </div>
+      <p style="margin-top:12px;font-size:13px;color:var(--muted)">Telefone: <strong>+258 84 449 2160</strong> · Email: <strong>associacaodosmissionarioscg@gmail.com</strong></p>
+    </div>
+    <div id="hero-en" class="hidden">
+      <h1>Transforming lives through faith, knowledge, and fertile land</h1>
+      <p class="lead">The Raízes do Futuro Missionaries Association works alongside communities to promote autonomy, food security, and hope — with respect, dignity, and sustainable practices.</p>
+      <div class="cta">
+        <a class="btn" href="#contato">Contact us</a>
+        <a class="btn ghost" href="#projetos">View projects</a>
+      </div>
+      <p style="margin-top:12px;font-size:13px;color:var(--muted)">Phone: <strong>+258 84 449 2160</strong> · Email: <strong>associacaodosmissionarioscg@gmail.com</strong></p>
+    </div>
+  </section>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <!-- Coluna principal -->
+    <div id="content-pt" class="fade-in">
+      <section class="card" id="projetos-pt">
+        <h2>Quem somos e o que fazemos</h2>
+        <p>Somos uma organização comunitária cristã nascida da escuta ativa com as comunidades de Cheringoma. Trabalhamos para fortalecer capacidades locais através de ações em educação, produção agrícola sustentável, viveiros comunitários e promoção da dignidade humana.</p>
+        <h3>Nossos pilares</h3>
+        <ul>
+          <li>Educação transformadora e clubes para jovens e meninas;</li>
+          <li>Promoção de sistemas agroflorestais e viveiros comunitários;</li>
+          <li>Distribuição de insumos e capacitação técnica;</li>
+          <li>Mobilização comunitária e ações de prevenção a incêndios florestais.</li>
+        </ul>
+        <h3>Por que somos diferentes</h3>
+        <ul>
+          <li>Trabalhamos ao lado da comunidade, valorizando saberes locais;</li>
+          <li>Procuramos parcerias que gerem autonomia, não dependência;</li>
+          <li>Compromisso de longo prazo e presença contínua em campo.</li>
+        </ul>
+      </section>
+
+      <section class="card" id="galeria-pt" style="margin-top:14px">
+        <h2>Galeria</h2>
+        <p class="meta">Clique nas imagens para ver em tamanho maior (se o seu navegador suportar).</p>
+        <div class="gallery">
+          <img src="foto1_distribuicao_escolar.jpg" alt="Distribuição de material escolar">
+          <img src="foto2_alimentacao.jpg" alt="Programa de alimentação escolar">
+          <img src="foto3_evento_comunitario.jpg" alt="Evento comunitário com participação local">
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:14px" id="mvv-pt">
+        <h2>Missão, Visão e Valores</h2>
+        <p><strong>Missão:</strong> Promover o desenvolvimento integral das comunidades através da fé, educação e práticas agrícolas sustentáveis.</p>
+        <p><strong>Visão:</strong> Um futuro onde crianças, jovens e famílias vivam com dignidade, esperança e oportunidades.</p>
+        <p><strong>Valores:</strong> Fé, Amor ao próximo, Educação, Sustentabilidade e Justiça.</p>
+      </section>
+    </div>
+
+    <div id="content-en" class="hidden">
+      <section class="card" id="projetos-en">
+        <h2>Who we are and what we do</h2>
+        <p>We are a Christian community organization born from active listening with the communities of Cheringoma. We work to strengthen local capacities through education, sustainable agricultural production, community nurseries, and promotion of human dignity.</p>
+        <h3>Our Pillars</h3>
+        <ul>
+          <li>Transformative education and clubs for youth and girls;</li>
+          <li>Promotion of agroforestry systems and community nurseries;</li>
+          <li>Distribution of inputs and technical training;</li>
+          <li>Community mobilization and wildfire prevention actions.</li>
+        </ul>
+        <h3>Why we are different</h3>
+        <ul>
+          <li>We work alongside the community, valuing local knowledge;</li>
+          <li>We seek partnerships that generate autonomy, not dependency;</li>
+          <li>Long-term commitment and continuous presence in the field.</li>
+        </ul>
+      </section>
+
+      <section class="card" id="galeria-en" style="margin-top:14px">
+        <h2>Gallery</h2>
+        <p class="meta">Click images to view larger (if your browser supports it).</p>
+        <div class="gallery">
+          <img src="foto1_distribuicao_escolar.jpg" alt="School supplies distribution">
+          <img src="foto2_alimentacao.jpg" alt="School feeding program">
+          <img src="foto3_evento_comunitario.jpg" alt="Community event with local participation">
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:14px" id="mvv-en">
+        <h2>Mission, Vision and Values</h2>
+        <p><strong>Mission:</strong> Promote the integral development of communities through faith, education, and sustainable agricultural practices.</p>
+        <p><strong>Vision:</strong> A future where children, youth, and families live with dignity, hope, and opportunities.</p>
+        <p><strong>Values:</strong> Faith, Love for others, Education, Sustainability, and Justice.</p>
+      </section>
+    </div>
+
+    <!-- Sidebar -->
+    <aside>
+      <!-- Contato -->
+      <section class="card" id="contato-pt">
+        <h2>Contacto rápido</h2>
+        <p class="meta">Cheringoma — Vila de Inhaminga, Bairro Dake</p>
+        <p><strong>Telefones:</strong><br>+258 84 449 2160<br>+258 83 416 0871</p>
+        <p><strong>Email:</strong><br><a href="mailto:associacaodosmissionarioscg@gmail.com">associacaodosmissionarioscg@gmail.com</a></p>
+      </section>
+
+      <section class="card hidden" id="contato-en">
+        <h2>Quick Contact</h2>
+        <p class="meta">Cheringoma — Vila de Inhaminga, Bairro Dake</p>
+        <p><strong>Phone:</strong><br>+258 84 449 2160<br>+258 83 416 0871</p>
+        <p><strong>Email:</strong><br><a href="mailto:associacaodosmissionarioscg@gmail.com">associacaodosmissionarioscg@gmail.com</a></p>
+      </section>
+
+      <!-- Formulário -->
+      <section class="card" style="margin-top:14px">
+        <h2 id="form-title-pt">Envie uma mensagem</h2>
+        <h2 id="form-title-en" class="hidden">Send a message</h2>
+        <form class="contact-form" id="contactForm">
+          <label for="nome" id="label-nome">Seu nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome">
+          <label for="email" id="label-email">Email</label>
+          <input type="email" id="email" placeholder="Digite seu email">
+          <label for="mensagem" id="label-mensagem">Mensagem</label>
+          <textarea id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+          <button type="submit" class="btn" id="btn-submit">Enviar</button>
+        </form>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="card">
+      <strong>Associação dos Missionários Raízes do Futuro</strong>
+      <div style="font-size:13px;color:var(--muted)">© 2025 • Todos os direitos reservados / All rights reserved</div>
+    </div>
+  </footer>
+</div>
+
+<script>
+function switchLang(lang){
+  const langs = ['pt','en'];
+  langs.forEach(l=>{
+    document.querySelectorAll('[id$="-'+l+'"]').forEach(el=>{
+      if(l===lang){ el.classList.remove('hidden'); el.classList.add('fade-in'); }
+      else{ el.classList.remove('fade-in'); el.classList.add('hidden'); }
+    });
+  });
+  // Alternar títulos do formulário
+  document.getElementById('form-title-pt').classList.toggle('hidden', lang!=='pt');
+  document.getElementById('form-title-en').classList.toggle('hidden', lang!=='en');
+
+  // Atualizar placeholders do formulário
+  if(lang==='pt'){
+    document.getElementById('label-nome').innerText='Seu nome';
+    document.getElementById('nome').placeholder='Digite seu nome';
+    document.getElementById('label-email').innerText='Email';
+    document.getElementById('email').placeholder='Digite seu email';
+    document.getElementById('label-mensagem').innerText='Mensagem';
+    document.getElementById('mensagem').placeholder='Escreva sua mensagem';
+    document.getElementById('btn-submit').innerText='Enviar';
+  } else {
+    document.getElementById('label-nome').innerText='Your Name';
+    document.getElementById('nome').placeholder='Enter your name';
+    document.getElementById('label-email').innerText='Email';
+    document.getElementById('email').placeholder='Enter your email';
+    document.getElementById('label-mensagem').innerText='Message';
+    document.getElementById('mensagem').placeholder='Write your message';
+    document.getElementById('btn-submit').innerText='Send';
+  }
+}
+</script>
+</body>
+</html>
